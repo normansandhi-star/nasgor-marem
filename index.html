@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff8f0;
+color: #2d2d2d;
+}
+
+/* 🔥 HERO */
+.btn {
+    background: #ff7a00;
+    color: white;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* TEXT */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    opacity: 0.85;
+    line-height: 1.6;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #c9a24d;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+#paketSection {
+  background: #020617;
+  padding: 50px 20px;
+}
+
+/* 🧊 GLASS UI */
+.card, .header {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.header {
+  background: rgba(2, 6, 23, 0.7);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* CARD */
+.card {
+  background: #0f172a;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.highlight {
+  color: #ff7a00;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    background: #0f172a !important;
+  }
+
+.card {
+  border-radius: 18px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.card.active {
+  border: 2px solid #22c55e;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+/* BADGE */
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: orange;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+/* QR */
+#qrSection {
+    display: none;
+    background: #020617;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* 🌌 BACKGROUND PREMIUM */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
+
+:root {
+  --primary: #22c55e; /* hijau sistem */
+  --accent: #38bdf8;  /* biru tech */
+}
+
+.cta {
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(34,197,94,0.4);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.5px;
+}
+
+p {
+  color: #94a3b8;
+}
+
+img {
+  max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🔝 HEADER -->
+<div style="
+position:sticky;
+top:0;
+z-index:999;
+background:rgba(14,26,20,0.9);
+padding:10px 20px;
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+">
+
+
+<a href="#paket" style="
+background:#c9a24d;
+padding:8px 14px;
+border-radius:6px;
+color:black;
+text-decoration:none;
+font-weight:bold;">
+Gas Menu 🚀
+</a>
+
+</div>
+<!-- 🔥 HERO -->
+<div style="position:relative;">
+    
+    <img src="https://i.ibb.co.com/q3xJ99Pr/20260415-223922-0000.jpg"
+style="
+width:100%;
+height:320px;
+object-fit:cover;
+display:block;
+filter: contrast(1.1) brightness(1.05);
+"></div>
+</div>
+
+
+</div>
+<!-- 🔥 HEADLINE -->
+<!-- 🔥 HEADLINE A -->
+<section class="section">
+<div class="container">
+
+<h1>Laper? Tenang… MAREM Siap Antar! 🍳🔥</h1>
+
+<p>
+Nasi Goreng • Mie Goreng • Capcay<br>
+Masakan rumahan Pak Zaki, murah & enak.<br>
+Siap antar ke depan pintu Anda 🚚
+</p>
+
+<p>
+⚠️ Order dibatasi tiap hari
+<br>
+⚠️ Dimasak setelah order (bukan stok)<br>
+⚠️ Jam sibuk sering full.
+</p>
+<a href="https://wa.me/62857xxxx" class="cta">
+🔥 ORDER SEKARANG
+</a>
+
+
+</div>
+</section>
+
+<!-- 😵 MASALAH -->
+<section style="padding:80px 20px; background:#0e1a14; color:white; text-align:center;">
+
+<h3>Nasi Goreng</h3>
+<h2>Rp11.000</h2>
+<p>/porsi</p>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:40px;">
+
+<!-- BASIC -->
+<div style="background:#16271f; padding:25px; border-radius:12px; width:280px; opacity:0.7;">
+    <ul style="text-align:left;">
+    <li>Nasi goreng fresh</li>
+    <li>Sambal khas</li>
+    <li>Bumbu rumahan</li>
+</ul>
+
+    <p style="color:#999;">Favorit warga 🔥</p>
+
+    <a href="javascript:void(0)" onclick="pilihDariAtas('Nasi Goreng')">
+Pesan Nasi Goreng
+</a>
+   
+</div>
+
+<!-- SMART (HIGHLIGHT) -->
+<div style="background:#1f3a2d; padding:30px; border-radius:12px; width:300px; border:2px solid #c9a24d; transform:scale(1.05);">
+    
+    <p style="color:#ff7a00; font-weight:bold;">🔥 PALING LARIS</p>
+
+<h3>Mie Goreng</h3>
+<h2 style="color:#ff7a00;">Rp11.000</h2>
+
+<ul style="text-align:left;">
+    <li>Mie kenyal gurih</li>
+    <li>Sambal + sosis</li>
+    <li>Rasa mantap</li>
+</ul>
+
+<p style="color:#ff7a00;">Bikin nagih 😁</p>
+
+<a href="javascript:void(0)" onclick="pilihDariAtas('Mie Goreng')">
+Pesan Mie Goreng
+</a>
+    
+</div>
+
+<!-- PRO -->
+<div style="background:#16271f; padding:25px; border-radius:12px; width:280px;">
+    <h3>Capcay</h3>
+<h2>Rp13.000</h2>
+
+<ul style="text-align:left;">
+    <li>Sayur fresh</li>
+    <li>Kuah hangat</li>
+    <li>Sehat & enak</li>
+</ul>
+
+<p style="color:#ff7a00;">Pilihan sehat 👍</p>
+
+<a href="javascript:void(0)" onclick="pilihDariAtas('Capcay')">
+Pesan Capcay
+</a>
+    
+</div>
+
+</div>
+
+</section>
+
+<!-- 📦 PAKET -->
+<section class="section" id="paket">
+<div class="container">
+
+<h1>Pilih Pesanan Anda</h1>
+
+<div class="grid">
+
+<!-- NASI GORENG -->
+<div class="card" onclick="pilihPaket('Nasi Goreng', 12000, this)">
+<h2>🍳 NASI GORENG</h2>
+<p>Nasi + Sambal + Sosis</p>
+<h2>Rp 11.000</h2>
+</div>
+
+<!-- MIE GORENG -->
+<div class="card" onclick="pilihPaket('Mie Goreng', 12000, this)" style="position:relative;">
+<div class="badge">PALING LARIS</div>
+
+<h2>🍜 MIE GORENG</h2>
+<p>Mie + Sambal + Sosis</p>
+
+<h2>
+<span style="text-decoration:line-through;font-size:14px;color:#9ca3af;">
+Rp 15.000
+</span><br>
+Rp 11.000
+</h2>
+
+<p style="color:#22c55e;font-size:13px;">
+✔ Bonus sambal
+</p>
+
+</div>
+
+<!-- CAPCAY -->
+<div class="card" onclick="pilihPaket('Capcay', 13000, this)">
+<h2>🥬 CAPCAY</h2>
+<p>Capcay + Nasi</p>
+<h2>Rp 13.000</h2>
+</div>
+
+</div>
+
+<p id="statusPaket" style="margin-top:20px;font-weight:bold;"></p>
+
+<p style="color:#22c55e;font-weight:bold;">
+✔ Paket sudah dipilih — lanjutkan pembayaran
+</p>
+<!-- 💳 QR -->
+<div id="qrSection">
+
+<h2>Scan & Bayar</h2>
+
+<a ="https://ibb.co.com/W4kKb785"><img src="https://i.ibb.co.com/yc6swKvP/IMG-20260403-WA0007.jpg" alt="IMG-20260403-WA0007" border="0"></a>
+
+<p style="font-size:13px;color:#f87171;">
+⚠️ Order dibatasi 25 porsi/hari
+</p>
+
+<p>
+Setelah bayar, kirim bukti ya 🙏<br>
+Pesanan langsung dimasak fresh 🔥
+</p>
+
+<button onclick="kirimWA()" class="btn">
+Saya Sudah Bayar
+</button>
+
+</div>
+
+</div>
+</section>
+
+<script>
+let paketDipilih = "";
+let hargaDipilih = 0;
+
+function pilihPaket(nama, harga, el) {
+
+    paketDipilih = nama;
+    hargaDipilih = harga;
+
+    document.querySelectorAll(".card").forEach(c => c.classList.remove("active"));
+    el.classList.add("active");
+
+    document.getElementById("statusPaket").innerHTML =
+    `✔️ Paket dipilih: ${nama} (Rp${harga.toLocaleString()})`;
+
+    document.getElementById("qrSection").style.display = "block";
+    document.getElementById("qrSection").scrollIntoView({behavior:"smooth"});
+}
+
+function kirimWA() {
+
+    if (!paketDipilih) {
+        alert("Pilih paket dulu 🙌");
+        return;
+    }
+
+    let pesan = `Halo, saya sudah bayar 🙌
+
+Paket: ${paketDipilih}
+Harga: Rp${hargaDipilih.toLocaleString()}
+
+Halo Pak Zaki 🙌
+
+Saya mau order:
+
+Menu:
+Jumlah:
+Alamat:
+
+Masih ready hari ini?
+`;
+
+    let url = "https://wa.me/6285708368706?text=" + encodeURIComponent(pesan);
+    window.open(url, "_blank");
+}
+</script>
+
+<script>
+function pilihDariAtas(paket) {
+
+  // Scroll ke paket
+  document.getElementById("paket").scrollIntoView({
+    behavior: "smooth"
+  });
+
+  setTimeout(() => {
+
+    let cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+      card.classList.remove("active");
+
+      if (card.innerText.includes(paket)) {
+        card.classList.add("active");
+
+        // ambil harga otomatis
+        let hargaText = card.innerText.match(/Rp\s?[\d.]+/g);
+        let harga = 0;
+
+        if (hargaText) {
+          harga = parseInt(hargaText[hargaText.length - 1].replace(/[^\d]/g, ""));
+        }
+
+        paketDipilih = paket;
+        hargaDipilih = harga;
+
+        document.getElementById("statusPaket").innerHTML =
+        `✔️ Paket dipilih: ${paket} (Rp${harga.toLocaleString()})`;
+
+        document.getElementById("qrSection").style.display = "block";
+
+        setTimeout(() => {
+          document.getElementById("qrSection").scrollIntoView({
+            behavior: "smooth"
+          });
+        }, 500);
+      }
+
+    });
+
+  }, 600);
+}
+</script>
+
+</body>
+</html>
