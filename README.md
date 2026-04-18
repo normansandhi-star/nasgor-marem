@@ -1,4 +1,4 @@
-# nasgor-marem# Ebook 
+# nasgor-marem#
 
 Landing page untuk distribusi jualan berbasis web.
 
