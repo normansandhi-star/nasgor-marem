@@ -1,4 +1,4 @@
-# nasgor-marem#
+# nasgor-marem
 
 Landing page untuk distribusi jualan berbasis web.
 
